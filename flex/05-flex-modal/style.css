@@ -16,7 +16,10 @@ body {
 }
 
 .modal {
+  display: flex;
   background: white;
+  padding: 15px;
+  gap: 10px;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
@@ -34,6 +37,23 @@ body {
   align-items: center;
   justify-content: center;
 }
+.left{
+  flex-shrink: 0;
+}
+.right{
+  display: block; 
+}
+.confirm{
+  font-weight: bold;
+  font-size: larger;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.selection{
+  margin-top: 20px;
+} 
 
 .close-button {
   background: #eee;
